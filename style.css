@@ -1,0 +1,39 @@
+body {
+  font-family: "Dosis", sans-serif;
+  min-height: 400px;
+  background-image: url("https://image.flaticon.com/icons/png/512/201/201635.png");
+  background-color: #a497ac;
+  background-size: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  font-size: 55px;
+  font-family: "Amatic SC", cursive;
+}
+
+.page-subtitle {
+  color: #1a0808;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
