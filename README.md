@@ -4,3 +4,8 @@
 ## 👩‍💻 Projeto
 
 ### Códigos produzidos durante a [Imersão Dev](imersão.dev), feita pela @[Alura](https://alura.com.br/).
+
+- Aula 1: Calculadora de médias.
+- Aula 2:
+- Aula 3:
+- Aula 4:

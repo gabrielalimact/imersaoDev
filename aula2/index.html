@@ -1,0 +1,55 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Conversor de Moedas</title>
+</head>
+<body>
+
+  <script src="script.js"></script>
+
+  <div class="conversor">
+    <h1>CONVERSOR DE MOEDAS</h1>
+    
+    <p class="container">
+      <a href="https://www.alura.com.br/" target="_blank">
+        <span class="imersao-dev">imersão<span id="dev">dev_</span>
+        </span>
+      </a>
+      <br>CONVERTA VALORES ENTRE MOEDAS RAPIDAMENTE
+    </p>
+
+    <div class="valores">
+      <div class="seletorMoeda">
+        <select name="moedasde" id="moedasde">
+          <option value="de">Converter de</option>
+          <option value="USD">Dolar</option>
+          <option value="BRL">Real</option>
+          <option value="EUR">Euro</option>
+        </select>
+
+        <input type="number" id="converter" placeholder="Digite o valor aqui">
+
+
+        <select name="moedaspara" id="moedaspara">
+          <option value="para">Para</option>
+          <option value="USD">Dolar</option>
+          <option value="BRL">Real</option>
+          <option value="EUR">Euro</option>
+        </select>
+      </div>
+      <button type="submit" onclick="Converter()">Converter</button>      
+      
+    </div>
+    <div id="resultado" class="value"></div>
+
+  </div>
+
+</body>
+
+</html>
