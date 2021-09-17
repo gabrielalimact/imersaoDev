@@ -3,18 +3,31 @@
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dosis:wght@300&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   <head>
-    <title> Imersão Dev Alura - Aula 01</title>
+    <title>Calculadora de médias</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="page-title">
-      Calculadora de média</h1>
-      <p class="page-subtitle">
-      Descubra qual a sua média de nota de todas as provas!
-      </p>
-      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <div class="page-up">
+        <h1 class="page-title">
+          Calculadora de média</h1>
+          <p class="page-subtitle">
+          Descubra qual a sua média de nota de todas as provas!
+          </p>
+          <a href="https://www.alura.com.br/" target="_blank">
+            <span class="imersao-dev">imersão<span id="dev">dev_</span>
+            </span>
+          </a><br><br>
+      </div>
+      <div class="calculadora">
+        <input type="number" id="nota1" placeholder="nota da ab1"/><br>
+        <input type="number" id="nota2" placeholder="nota da ab2"/>
+      </div>
+      <button type="submit" onclick="Calcular()">Calcular média</button>     
+      <div id="mediaFinal"></div>   
     </div>
+    
     <a href="https://alura.com.br/" target="_blank">
     <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
