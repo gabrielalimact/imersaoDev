@@ -5,18 +5,20 @@
 
 ### Códigos produzidos durante a [Imersão Dev](imersão.dev), feita pela @[Alura](https://alura.com.br/).
 
+<style> .img-sites { width: 823px } </style>
+
 ## - ✨ Aula 1: Calculadora de médias.
 
-  <img align='center' src="https://media.discordapp.net/attachments/859803989750972446/888561180166225920/unknown.png">
+  <img class="img-sites" src="https://media.discordapp.net/attachments/859803989750972446/888561180166225920/unknown.png">
 
 ## - ✨ Aula 2: Converter moedas.
 
-  <img src="https://media.discordapp.net/attachments/859803989750972446/888561313373102150/unknown.png">
+  <img class="img-sites" src="https://media.discordapp.net/attachments/859803989750972446/888561313373102150/unknown.png">
 
 ## - ✨ Aula 3: Mentalista.
 
-  <img src="https://media.discordapp.net/attachments/859803989750972446/888561382872711178/unknown.png?width=730&height=676">
+<img class="img-sites" src="https://media.discordapp.net/attachments/859803989750972446/888561382872711178/unknown.png?width=823&height=762">
 
 ## - ✨ Aula 4 & 5: AluraFlix - GabiFlix.
 
-  <img src="https://media.discordapp.net/attachments/859803989750972446/889578037639778334/unknown.png?width=823&height=676">
+  <img class="img-sites" src="https://media.discordapp.net/attachments/859803989750972446/889578037639778334/unknown.png?width=823&height=676">
