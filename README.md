@@ -17,6 +17,6 @@
 
   <img src="https://media.discordapp.net/attachments/859803989750972446/888561382872711178/unknown.png?width=730&height=676">
 
-## - ✨ Aula 4: AluraFlix - GabiFlix.
+## - ✨ Aula 4 & 5: AluraFlix - GabiFlix.
 
-  <img src="https://media.discordapp.net/attachments/859803989750972446/889567700614004856/Captura_de_tela_2021-09-20_143916.png?width=893&height=676">
+  <img src="https://media.discordapp.net/attachments/859803989750972446/889578037639778334/unknown.png?width=823&height=676">
