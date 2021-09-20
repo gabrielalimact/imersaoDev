@@ -1,11 +1,6 @@
 body {
-  background: rgb(149, 156, 190);
-  background: linear-gradient(
-    90deg,
-    rgba(149, 156, 190, 0.3309698879551821) 30%,
-    rgba(252, 70, 107, 0.31416316526610644) 100%
-  );
-  background-size: 500%;
+  background: rgba(253, 204, 214, 0.329);
+  min-height: 500px;
   font-family: "Dosis", sans-serif;
   display: grid;
   align-items: center;
@@ -21,16 +16,10 @@ body {
   );
   padding: 70px 100px 100px 100px;
   align-items: center;
+  justify-content: center;
   margin: auto;
   box-shadow: 4px 5px 4px -1px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
-}
-
-label {
-  display: block;
-  font-size: 18px;
-  color: #fff;
-  margin-right: 10px;
 }
 
 h1 {
@@ -48,7 +37,7 @@ select {
   border-radius: 5px;
   border: none;
   outline: 0;
-  font-size: 14px !important;
+  font-size: 14px;
 }
 
 .seletorMoeda {
@@ -68,20 +57,12 @@ select {
   padding: 0 10px;
 }
 
-img {
-  width: 600px;
-  position: absolute;
-  bottom: -40px;
-  right: 0;
-  margin-top: 40px;
-}
-
 p {
   text-align: center;
   font-size: 22px;
   color: hsl(0, 27%, 32%);
   font-weight: 500;
-  max-width: 700px;
+  /* max-width: 700px; */
   margin: 0 auto;
 }
 
@@ -96,23 +77,6 @@ p {
 #dev {
   background: #18cf1e;
   padding: 0 5px;
-}
-
-.converter {
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  background: #ff7200;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.converter:hover {
-  background: #000;
-  color: #fff;
-  padding: 15px 25px;
 }
 
 #converter {
@@ -135,18 +99,13 @@ p {
 
 .value {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 30px;
-  background: rgb(42, 50, 119);
-  background: linear-gradient(
-    90deg,
-    rgba(42, 50, 119, 0.5942752100840336) 100%,
-    rgba(252, 70, 107, 0.2329306722689075) 100%
-  );
+  background: rgba(123, 138, 255, 0.301);
   border-radius: 5px;
   margin-top: 40px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 button {

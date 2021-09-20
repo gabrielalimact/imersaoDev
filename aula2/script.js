@@ -10,7 +10,7 @@ function Converter () {
     var valorEmDolar = input;
     var valor;
     if(para.value == "BRL"){
-      valor = "O valor em reais é: R$"+(valorEmDolar/5.31).toFixed(2);
+      valor = "O valor em reais é: R$"+(valorEmDolar*5.31).toFixed(2);
 
     } else if(para.value == "EUR"){
       valor = "O valor em euros é: €"+(valorEmDolar*0.85).toFixed(2);
