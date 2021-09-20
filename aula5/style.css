@@ -1,0 +1,74 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  background: rgb(200, 3, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 3, 3, 1) 0%,
+    rgba(0, 0, 0, 1) 99%
+  );
+  background-size: 200%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  font-size: 40px;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  text-shadow: 3px 5px #000000;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 45px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmesFav img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0px 0px 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
