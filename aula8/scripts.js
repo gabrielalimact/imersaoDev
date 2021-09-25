@@ -142,7 +142,7 @@ var cartas = [
   
     if (valorCartaJogador > valorCartaMaquina) {
       divResultado =
-        "<p class='resultado-final'>Você consegui derrotar o adversário!</p>";
+        "<p class='resultado-final'>Você conseguiu derrotar o adversário!</p>";
     } else if (valorCartaJogador < valorCartaMaquina) {
       divResultado =
         "<p class='resultado-final'>Não foi dessa vez. Você perdeu!</p>";
