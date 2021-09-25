@@ -5,7 +5,6 @@
 
 ### Códigos produzidos durante a [Imersão Dev](imersão.dev), feita pela @[Alura](https://alura.com.br/).
 
-
 ## - ✨ Aula 1: Calculadora de médias.
 
   <img src="https://media.discordapp.net/attachments/859803989750972446/888561180166225920/unknown.png" width="823px">
@@ -21,3 +20,7 @@
 ## - ✨ Aula 4 & 5: AluraFlix - GabiFlix.
 
   <img src="https://media.discordapp.net/attachments/859803989750972446/889578037639778334/unknown.png?width=823&height=676" width="823px">
+
+## - ✨ Aula 7 & 8: Super Trunfo - Pokemon.
+
+  <img src="https://media.discordapp.net/attachments/859803989750972446/891332380881731584/unknown.png?width=1118&height=671" width="823px">
