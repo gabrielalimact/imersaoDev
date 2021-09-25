@@ -28,6 +28,76 @@ var cartas = [
         defesa: 43,
         magia: 65
       }
+    }),
+    (carta4 = {
+      nome: "Squirtle",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      atributos: {
+        ataque: 48,
+        defesa: 65,
+        magia: 43
+      }
+    }),
+    (carta5 = {
+      nome: "Ninetales",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      atributos: {
+        ataque: 76,
+        defesa: 75,
+        magia: 100
+      }
+    }),
+    (carta6 = {
+      nome: "Pidgey",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+      atributos: {
+        ataque: 45,
+        defesa: 40,
+        magia: 56
+      }
+    }),
+    (carta7 = {
+      nome: "Clefairy",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+      atributos: {
+        ataque: 45,
+        defesa: 48,
+        magia: 35
+      }
+    }),
+    (carta8 = {
+      nome: "Nidoran-m",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+      atributos: {
+        ataque: 57,
+        defesa: 40,
+        magia: 50
+      }
+    }),
+    (carta9 = {
+      nome: "Oddish",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+      atributos: {
+        ataque: 50,
+        defesa: 55,
+        magia: 30
+      }
+    }),
+    (carta10 = {
+      nome: "Vulpix",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+      atributos: {
+        ataque: 41,
+        defesa: 40,
+        magia: 65
+      }
     })
   ];
   
@@ -45,8 +115,14 @@ var cartas = [
     cartaJogador = cartas[numCartaJogador];
   
     document.getElementById("btnSortear").disabled = true;
+    document.getElementById("btnJogar").disabled = false;
+  
     document.getElementById("btnJogar").style.display = "inline";
+    var h2Hiden = document.getElementById("hiden");
+    h2Hiden.innerHTML = "Escolha seu atributo";
     exibirCartaJogador();
+    document.getElementById("carta-maquina").style.display = "none";
+    document.getElementById("resultado").style.display = "none";
   }
   
   function atributoSelecionado() {
@@ -71,12 +147,16 @@ var cartas = [
       divResultado =
         "<p class='resultado-final'>Não foi dessa vez. Você perdeu!</p>";
     } else {
-      divResultado = "<p class='resultado-final'>Você empataram.</p>";
+      divResultado = "<p class='resultado-final'>Vocês empataram.</p>";
     }
     elementoResultado.innerHTML = divResultado;
   
     document.getElementById("btnJogar").disabled = true;
     exibirCartaMaquina();
+    document.getElementById("btnSortear").disabled = false;
+    document.getElementById("carta-maquina").style.display = "";
+  
+    document.getElementById("resultado").style.display = "";
   }
   
   function exibirCartaJogador() {

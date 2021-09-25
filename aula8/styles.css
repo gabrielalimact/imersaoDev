@@ -34,11 +34,21 @@ body {
 }
 button,
 .button-jogar {
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  text-transform: uppercase;
   padding: 15px 30px;
   margin: 20px auto;
   border-radius: 5px;
   border: none;
-  font-size: 1rem;
+  border-color: blue;
+  color: #000;
+  background-color: #676565;
+}
+
+button:disabled {
+  background-color: #e1ebec;
+  color: gray;
 }
 
 h2 {
